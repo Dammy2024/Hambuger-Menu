@@ -1,0 +1,44 @@
+.ham-Navbar-Container {
+  background: blue;
+  width: 100%;
+  height: 6vh;
+  display: flex;
+}
+.ham-Navbar-Container .ham-Navbar-Btn {
+  align-content: center;
+  cursor: pointer;
+  margin-left: 1em;
+}
+.ham-Navbar-Container .ham-Navbar-Btn .close-icon {
+  display: none;
+}
+.ham-Navbar-Container .ham-Navbar-Btn .menu-icon {
+  display: inline;
+}
+
+.ham-Menu {
+  display: none;
+}
+.ham-Menu.show {
+  display: block;
+}
+.ham-Menu ul {
+  list-style: none;
+  background: grey;
+  width: 50vw;
+  height: 100vh;
+  margin: 0;
+}
+.ham-Menu li a {
+  text-decoration: none;
+  padding: 1rem;
+  color: black;
+  padding-top: 2rem;
+}
+.ham-Menu a {
+  display: block;
+  border-bottom: 1px solid black;
+}
+.ham-Menu a:hover {
+  background: lightgrey;
+}/*# sourceMappingURL=style.css.map */
